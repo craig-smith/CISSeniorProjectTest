@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<UserPrograms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <username>alex</username>
+  <programs>
+    <Program>
+      <username>alex</username>
+      <ID>16</ID>
+      <programName>new program</programName>
+      <language>vb</language>
+      <createdOnDate>8/2/2015 12:00:00 AM</createdOnDate>
+    </Program>
+    <Program>
+      <username>alex</username>
+      <ID>14</ID>
+      <programName>some other program</programName>
+      <language>c#</language>
+      <createdOnDate>7/18/2015 12:00:00 AM</createdOnDate>
+    </Program>
+    <Program>
+      <username>alex</username>
+      <ID>13</ID>
+      <programName>test</programName>
+      <language>java</language>
+      <createdOnDate>8/1/2015 12:00:00 AM</createdOnDate>
+    </Program>
+  </programs>
+</UserPrograms>

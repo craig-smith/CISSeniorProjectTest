@@ -1,0 +1,128 @@
+﻿html{
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    width: 100%;
+    background: linear-gradient(top right, rgba(255,255,153, 1), rgba(102, 204, 102, 1));
+    background: -webkit-linear-gradient(top right, rgba(255,255,153, 1), rgba(102, 204, 102, 1));
+    background: -moz-linear-gradient(top right, rgba(255,255,153, 1), rgba(102, 204, 102, 1));
+    background: -ms-linear-gradient(top right, rgba(255,255,153, 1), rgba(102, 204, 102, 1));
+    background-attachment: fixed;
+}
+#header {
+    background-image: url(../graphics/headerimg.png);
+    width: 1120px;
+    height: 215px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.nav{
+    width: 200px;
+    background: linear-gradient(bottom, rgba(255,255,153, 1), rgba(102, 204, 102, 1));
+    background: -webkit-linear-gradient(bottom, rgba(255,255,153, 1), rgba(102, 204, 102, 1));
+    background: -moz-linear-gradient(bottom, rgba(255,255,153, 1), rgba(102, 204, 102, 1));
+    background: -ms-linear-gradient(bottom, rgba(255,255,153, 1), rgba(102, 204, 102, 1));
+    border: solid 3px;
+    border-color: black;
+    padding: 5px;
+    margin: 45px;
+    float: left;
+}
+.nav-item{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 2px;
+    border-color: black;
+    background: radial-gradient(rgba(255,255,153, 1), rgba(102, 204, 102, 1));
+    background: -webkit-radial-gradient(rgba(255,255,153, 1), rgba(102, 204, 102, 1));
+    background: -moz-radial-gradient(rgba(255,255,153, 1), rgba(102, 204, 102, 1));
+    background: -ms-radial-gradient(rgba(255,255,153, 1), rgba(102, 204, 102, 1));
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+    font-family: 'Courier New';
+
+}
+
+#nav_links{
+    width: 200px;
+}
+
+.main-content{
+    width: 70%;
+    border-style: solid;
+    border-width: 3px;
+    background: linear-gradient(top left, white, rgba(255,255,153, 1));
+    background: -webkit-linear-gradient(top left, white, rgba(255,255,153, 1));
+    background: -moz-linear-gradient(top left, white, rgba(255,255,153, 1));
+    background: -ms-linear-gradient(top left, white, rgba(255,255,153, 1));
+    margin-top: 40px;
+    
+    padding: 10px;
+    float: left;
+    min-height: 500px;
+    font-family: 'Courier New';
+}
+
+.main-content h1{
+     font-family: Stencil;
+}
+.main-content input[type="submit"] {
+    background: radial-gradient(rgba(255,255,153, 1), rgba(102, 204, 102, 1));
+    background: -webkit-radial-gradient(rgba(255,255,153, 1), rgba(102, 204, 102, 1));
+    background: -moz-radial-gradient(rgba(255,255,153, 1), rgba(102, 204, 102, 1));
+    background: -ms-radial-gradient(rgba(255,255,153, 1), rgba(102, 204, 102, 1));
+    border-color: black;
+    margin: 10px;
+}
+.main-content input[type="button"]{
+    background: radial-gradient(rgba(255,255,153, 1), rgba(102, 204, 102, 1));
+    background: -webkit-radial-gradient(rgba(255,255,153, 1), rgba(102, 204, 102, 1));
+    background: -moz-radial-gradient(rgba(255,255,153, 1), rgba(102, 204, 102, 1));
+    background: -ms-radial-gradient(rgba(255,255,153, 1), rgba(102, 204, 102, 1));
+    border-color: black;
+    margin: 10px;
+}
+.main-content p, span{
+    line-height: 2em;
+}
+p.code{
+    margin: 20px;
+    line-height: 1.5em;
+    font-family: 'Consolas';
+}
+
+#welcomemsg{
+    color: darkgreen;
+    font-family: 'Consolas';
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+}
+.hidden{
+    display: none;
+    visibility: hidden;
+}
+.visible{
+    display: block;
+    visibility: visible;
+}
+
+.forum_comment{
+    padding: 10px;
+    margin: 10px;
+    border: groove;
+    border-color: lightgreen;
+}
+
+.forum_comment p{
+    color: green;
+    
+}

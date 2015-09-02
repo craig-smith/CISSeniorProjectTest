@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" EnableViewState="true"%>
+
+<%@ Register Src="~/WebUserControl.ascx" TagPrefix="uc1" TagName="WebUserControl" %>
+<%@ Register Src="~/welcomeMsgControl.ascx" TagPrefix="uc1" TagName="welcomeMsgControl" %>
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title></title>
+    <link rel="stylesheet" href="siteCSS/normalize.css"/>
+    <link href="siteCSS/mainCSS.css" rel="stylesheet" />
+    <script src="Scripts/jquery-2.1.4.min.js" type="text/javascript"></script>
+   
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="welcomemsg">
+        <uc1:welcomeMsgControl runat="server" ID="welcomeMsgControl" />
+    </div>
+    <div id="header"></div>
+    <div class="nav">
+        <uc1:WebUserControl runat="server" ID="WebUserControl" />
+    </div>
+    
+    <form id="form1" runat="server">
+    <div>
+        <div class="main-content">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
