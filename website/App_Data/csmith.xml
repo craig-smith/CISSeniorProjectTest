@@ -7,28 +7,28 @@
       <ID>22</ID>
       <programName>test app</programName>
       <language>java</language>
-      <createdOnDate>8/26/2015 12:00:00 AM</createdOnDate>
+      <createdOnDate>26/08/2015 00:00:00</createdOnDate>
     </Program>
     <Program>
       <username>csmith</username>
       <ID>21</ID>
       <programName>awsome program</programName>
       <language>java</language>
-      <createdOnDate>8/2/2015 12:00:00 AM</createdOnDate>
+      <createdOnDate>02/08/2015 00:00:00</createdOnDate>
     </Program>
     <Program>
       <username>csmith</username>
       <ID>17</ID>
       <programName>new program</programName>
       <language>java</language>
-      <createdOnDate>8/2/2015 12:00:00 AM</createdOnDate>
+      <createdOnDate>02/08/2015 00:00:00</createdOnDate>
     </Program>
     <Program>
       <username>csmith</username>
       <ID>15</ID>
       <programName>some program</programName>
       <language>java</language>
-      <createdOnDate>8/1/2015 12:00:00 AM</createdOnDate>
+      <createdOnDate>01/08/2015 00:00:00</createdOnDate>
     </Program>
   </programs>
 </UserPrograms>

@@ -3,25 +3,25 @@
   <username>alex</username>
   <programs>
     <Program>
-      <username>test-change-from-work</username>
+      <username>alex</username>
       <ID>16</ID>
       <programName>new program</programName>
       <language>vb</language>
-      <createdOnDate>8/2/2015 12:00:00 AM</createdOnDate>
+      <createdOnDate>02/08/2015 00:00:00</createdOnDate>
     </Program>
     <Program>
       <username>alex</username>
       <ID>14</ID>
       <programName>some other program</programName>
       <language>c#</language>
-      <createdOnDate>7/18/2015 12:00:00 AM</createdOnDate>
+      <createdOnDate>18/07/2015 00:00:00</createdOnDate>
     </Program>
     <Program>
       <username>alex</username>
       <ID>13</ID>
       <programName>test</programName>
       <language>java</language>
-      <createdOnDate>8/1/2015 12:00:00 AM</createdOnDate>
+      <createdOnDate>01/08/2015 00:00:00</createdOnDate>
     </Program>
   </programs>
 </UserPrograms>
